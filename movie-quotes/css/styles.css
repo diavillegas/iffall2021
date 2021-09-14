@@ -1,0 +1,61 @@
+h1 {
+    font-size: 70px;
+    color: red;
+    font-weight:bold;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    color: red;
+    font-weight:bold;
+    text-align: center;
+}
+
+body {
+    background-color: #222222;
+    font-family: 'Courier New', Courier, monospace
+}
+
+p {
+    color: white;
+}
+
+#Peter{
+    color: white;
+}
+
+#Dana{
+    color: yellow;
+}
+
+#Mayor{
+    color: orange;
+}
+
+#Ray{
+    color: greenyellow;
+}
+
+#Egon{
+    color:lightblue;
+}
+
+#Winston{
+    color:lightpink;
+}
+
+.Div1{
+    border: 20px solid white;
+    background-color: #222222;
+    text-align: center;
+}
+.Div2{
+    border: 20px solid white;
+    background-color: #222222;
+    text-align: center;
+}
+.Div3{
+    border: 20px solid white;
+    background-color: #222222;
+    text-align: center;
+}
