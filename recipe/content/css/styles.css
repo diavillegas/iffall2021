@@ -1,0 +1,68 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F7ED;
+}
+
+section{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+h1{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    color:darkblue;
+}
+
+img.onions{
+    height: 100px;
+}
+
+img.tomatoes{
+    height: 100px;
+}
+
+img.chicken{
+    height: 100px;
+}
+
+img.potatoes{
+    height: 100px;
+}
+
+img.covered-pot{
+    height: 100px;
+}
+
+img.potatoes-2{
+    height: 100px;
+}
+
+img.corn{
+    height: 100px;
+}
+
+img.sancocho{
+    height: 100px;
+}
+
+#timing{
+    text-align: center;
+}
+
+#serves{
+    text-align: center;
+}
