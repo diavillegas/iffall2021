@@ -1,0 +1,149 @@
+.centered{
+    margin-left: auto; margin-right:auto;
+    width: 960px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+header h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+header div{
+    padding-top: 152px;
+    padding-bottom: 190px;
+}
+
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/miami-skyline-at-sunrise-bill-barber.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 50%;
+}
+
+.section1 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+
+section > div{
+    padding: 30px 0 50px 0;
+}
+
+img.beach{
+    width: 400px;
+    height: 300px;
+    float: right;
+    object-fit: cover;
+    padding: 0px 0px 30px 40px;
+}
+
+.section1{
+    background-color: #ffefd8;
+    color: #414141;
+}
+
+.section2 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+    color:#414141;
+}
+
+.grid-flex{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:0;
+}
+
+.brickell{
+    width: 200px;
+    height: 150px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.photo-text p{
+    margin-top:7px;
+    margin-left: -28px;
+    margin-right: 30px;
+}
+
+img.brickell{
+    padding-bottom: 19px;
+}
+
+h3{
+    margin-left: -28px;
+    padding-top: 1px;
+    font-size: 1.2rem;
+    font-weight:700;
+}
+
+.photo-text{
+    color: #414141;
+}
+
+.section2{
+    background-color: #ffe6ee;
+}
+
+.section3 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 33px;
+    color:#414141;
+}
+
+.section3 div{
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.last-section-text{
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0 120px 0 120px;
+}
+
+.section3{
+    background-color: lightyellow;
+}
+
+.centered p{
+    padding: 20px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
