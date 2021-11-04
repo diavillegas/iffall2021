@@ -1,0 +1,303 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_cn{
+    display: inline-block;
+    height: 50px;
+	box-sizing: border-box;
+    border-radius: 10px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 10px 0px 10px;
+    background-color: #000;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a#btn_cn:hover{
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    transition: all .2s;
+}
+
+a#btn_cn:active{
+    background-color: #fff;
+    color:#000;
+}
+
+a#btn_lyft{
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 105px;
+	padding: 10px 30px 0px 30px;
+    background-color: #FF00BF;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Leckerli One', cursive;
+}
+
+a#btn_lyft:hover{
+    background-color: #fff;
+    color: #FF00BF;
+    box-shadow: 0 0 8px #FF00BF;
+}
+
+a#btn_lyft:hover .fa-car-side{
+    transform: translate(140px);
+    transition: all .5s;
+}
+
+a#btn_coke{
+    display: inline-block;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin:auto;
+    margin-top: 90px;
+	padding: 25px 30px 20px 30px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cc2828+0,e5e5e5+100 */
+    background: #cc2828; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #cc2828 0%, #e5e5e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #cc2828 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #cc2828 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2828', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    ;
+    color:white;
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 30px;
+}
+
+a#btn_coke:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cc2828+0,cc2828+100 */
+background: #cc2828; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #cc2828 0%, #cc2828 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #cc2828 0%,#cc2828 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #cc2828 0%,#cc2828 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2828', endColorstr='#cc2828',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_coke:active{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffffff 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffffff 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    color: #cc2828;
+    border: 2px solid #cc2828;
+}
+
+a#btn_apple{
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 8px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 90px;
+    transition: all .5s;
+}
+
+a#btn_apple:hover{
+    color:lightgray;
+    transform: scale(1.5);
+}
+
+a#btn_nerf{
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 105px;
+	padding: 10px 30px 0px 30px;
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Racing Sans One', cursive;
+}
+
+.fa-circle{
+    position: absolute;
+    transform: translate(-200%);
+}
+
+a#btn_nerf:hover .fa-circle{
+    transform: translate(325%);
+    transition: 1s;
+}
+
+a#btn_nerf:hover{
+    box-shadow: 0 0 8px orange;
+}
+
+a#btn_mk{
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    text-decoration: none;
+    font-size:70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -14px;
+    color: #444444
+}
+
+a#btn_mk:hover{
+    text-shadow: 0 0 8px rgba(102, 102, 102, 0.5);
+    transform: rotate(5deg);
+    transition:all .2s;
+}
+
+a#btn_craigslist{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 85px;
+    background-color: #fff;
+    font-size: 70px;
+}
+
+a#btn_craigslist:hover{
+    color: darkmagenta;
+    transform:scale(1.3);
+}
+
+a#btn_craigslist:active{
+    transform: translateY(4px);
+}
+
+a#btn_nike{
+    display: inline-block;
+    height: 90px;
+    width: 140px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding: 5px 10px 5px 5px;
+    background-color: #000;
+    color:red;
+    border-radius: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    box-shadow: 0 9px #999;
+    font-family: 'Oswald', sans-serif;
+}
+
+#btn_nike:hover {background-color:darkred;
+    color:white;}
+
+#btn_nike:active {
+    background-color: darkred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color:white;
+  }
+
+#btn_tesla{
+    background-color:darkgrey;
+    border: none;
+    color:white;
+    padding: 16px 32px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+} 
+
+#btn_tesla:hover {
+    opacity:1
+}
+
+#btn_fitbit{
+    background-color:#003366;
+    border: none;
+    color:white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#btn_fitbit:hover{
+    transform: scale(0.80);
+}
+
+#btn_ig{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e55790+0,db6825+26,cc4fbd+53,edb55c+73,b567d3+100 */
+background: #e55790; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #e55790 0%, #db6825 26%, #cc4fbd 53%, #edb55c 73%, #b567d3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #e55790 0%,#db6825 26%,#cc4fbd 53%,#edb55c 73%,#b567d3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #e55790 0%,#db6825 26%,#cc4fbd 53%,#edb55c 73%,#b567d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55790', endColorstr='#b567d3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: none;
+    color:white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#btn_ig:hover{
+    transform: translate(10px);
+    transition: all .5s;
+    text-shadow: 5px 0px 2px rgba(255, 215, 137, 1);
+}
