@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sinan Road</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'dvl5bxa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <style>
+            html{
+                background-color: #FDFDFB;
+                margin:0;
+            }
+            body{
+                color: #002204;
+                font-family: 'Libre Baskerville', serif;
+                margin:0;
+            }
+
+            div.nav{
+                clear:right;
+            }
+            h1{
+                font-size: 50pt;
+                text-align: center;
+            }
+
+            span.chinese{
+                font-family: fz-shu-song-gb18030,serif;
+                font-weight: 400;
+                font-style: normal;
+                font-weight: bolder;
+            }
+            div.title{
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            @media (min-width:1700px){
+            img.road-img{
+                width:100%;
+                float: left;
+            }}
+
+            @media (min-width:1700px){
+            div.road-img{
+                width:65%;
+                margin-left:0;
+                margin-top: -1%;
+                float: left;
+                margin-right: 0;
+            }}
+
+            @media (min-width:1700px){
+            div.road-text1{
+                position: relative;
+                float:right;
+                width:450px;
+                height:280px;
+                border: 1px solid #002204;
+                right:120px;
+                top:70px;
+            }}
+            @media (min-width:1700px){
+            div.road-text2{
+                position: relative;
+                float:right;
+                width:450px;
+                height:250px;
+                border: 1px solid #002204;
+                left:75px;
+                top:60px;
+            }}
+
+            p.text1{
+                font-size: 20pt;
+                text-align: center;
+            }
+
+            p.text2{
+                font-size: 20pt;
+                text-align: center;
+            }
+
+            a:visited {
+                color: #002204;
+                text-decoration: none;
+            }
+
+            a:link{
+                text-decoration: none;
+            }
+
+            a:active{
+                color: #3BA248;
+                text-decoration: underline;
+            }
+            @media (max-width:1700px){
+                div.road-img img.road-img{
+                    float:none;
+                    width:100%;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    padding:0;
+                }
+            }
+            @media (max-width:1700px){
+                div.road-text2{
+                width:100%;
+                border: 1px solid #002204;
+                display: flex;
+                flex-direction: column;
+            }}
+            @media (max-width:1700px){
+                div.road-text1{
+                width:100%;
+                border: 1px solid #002204;
+                display: flex;
+                flex-direction: column;
+            }}
+        </style>
+    </head>
+    <header>
+        <div class="nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">Historical Facts</a></li>
+                    <li><a href="mansions.html">Sinan Mansions</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="directions.html">Directions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="title">
+            <h1 class="sinanroadtitle">Sinan Road, Shanghai <span class="chinese">思南路</span></h1>
+        </div>
+        <div class="road-img">
+            <img class="road-img" src="images/sinanroad.jpeg">
+        </div>
+        <div class="road-text1">
+            <p class="text1">
+                Sinan Road is one of the<br> best old streets in Shanghai<br> to escape from the bustling<br> city, with western style villas,<br> small delicate shops and<br> restaurants, in the shade<br> of tall plane trees.
+            </p>
+        <div class="road-text2">
+            <p class="text2">
+                Built in 1914 and named<br> ‘Rue Massenet’ by the French<br> Concession authorities to<br> commemorate the famous<br> French musician who died<br> on August 13, 1912.
+            </p>
+    </body>
+</html>

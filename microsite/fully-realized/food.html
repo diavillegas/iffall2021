@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sinan Road</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <style>
+            html{
+                background-color: #002204;
+            }
+            body{
+                color: #FDFDFB;
+                font-family: 'Libre Baskerville', serif;
+            }
+            h1{
+                font-size: 50pt;
+                max-width: 100%;
+                text-align: left;
+                margin-left: 10%;
+            }
+            main{
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            a:visited {
+                color: #FDFDFB;
+                text-decoration: none;
+            }
+
+            a:link{
+                text-decoration: none;
+            }
+
+            a:active{
+                color: #3BA248;
+                text-decoration: underline;
+            }
+            .food-list{
+                background:#FDFDFB;
+                color: #002204;
+                display: flex;
+                flex-direction:column;
+                max-width: 80%;
+                margin: 0% 10% 0 10%;
+            }
+            @media (min-width:768px){
+                .food1{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    flex-wrap: wrap;
+                    padding: 2rem 0 2rem 2rem;
+                }
+            }
+            @media (min-width:768px){
+                .foodimg1{
+                    align-self: flex-start;
+                    flex: 8;
+                    margin-bottom: 0;
+                    margin-right:0;
+                    max-width: 22rem;
+                    overflow: hidden;
+                    position: relative;
+                    width:100%;
+                }
+            }
+            .foodimg1 img{
+                width:20rem;
+                height: 15rem;
+            }
+            @media (min-width:768px){
+                .article-content{
+                    display: flex;
+                    flex: 12;
+                    flex-direction: column;
+                    margin-right: 3rem;
+                }
+            }
+            @media (min-width:768px){
+                .food-title{
+                    margin-top:0;
+                    font-size: 1.5rem;
+                }
+            }
+            .food-title a{
+                color: #002204;
+                font-weight: bolder;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            a:active{
+                color: #3BA248;
+                text-decoration: underline;
+            }
+            .title-tags{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 1.5rem;
+            }
+            @media (min-width:768px){
+                .tags{
+                    margin-bottom: 0;
+                }
+            }
+            .tag-list{
+                display: inline-flex;
+                flex-direction: row;
+                list-style: none;
+                flex-wrap: wrap;
+                margin:0;
+                padding:0;
+            }
+            .tag{
+                background: #ececec;
+                color: #002204;
+                font-size:1rem;
+                font-weight: bolder;
+                margin: 0 1rem 1rem 0;
+                padding:.5rem;
+            }
+            .summary-container{
+                display:flex;
+                flex-direction: column;
+            }
+            .summary-container p{
+                line-height: 2rem;
+                margin: 0 0 1.5rem;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">Historical Facts</a></li>
+                    <li><a href="mansions.html">Sinan Mansions</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="directions.html">Directions</a></li>
+                </ul>
+            </nav>
+        </header>
+            <h1 class="foodtitle">Food</h1>
+        <section class="main-content">
+            <div class="food-list">
+                <article class="food1">
+                    <div class="foodimg1">
+                        <img src="images/restaurant1.png">
+                    </div>
+                    <div class="article-content">
+                        <div class="food-title">
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g308272-d4962366-Reviews-Las_Tapas_SiNan_GongGuan-Shanghai.html">1. Las Tapas (SiNan GongGuan)</a>
+                        </div>
+                        <div class="title-tags">
+                            <section class="tags">
+                                <ul class="tag-list">
+                                    <li class="tag">
+                                        <span class="tag-format">Spanish</span>
+                                    </li>
+                                    <li class="tag">
+                                        <span class="tag-format">$$-$$$</span>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="summary-container">
+                            <p>Sinan Mansions outlet from the chain of mid-range Spanish tapas restaurants. The menu is a primer on Spanish cuisine with all of the basics: patatas bravas, garlic prawns, etc. For something more substantial there are also paellas and pastas. The Sinan Mansions branch is in the former residence of The Alchemist cocktail lounge.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food1">
+                    <div class="foodimg1">
+                        <img src="images/restaurant2.png">
+                    </div>
+                    <div class="article-content">
+                        <div class="food-title">
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g308272-d4704411-Reviews-Boxing_Cat_Brewery_Sinan_Mansions-Shanghai.html">2. Boxing Cat Brewery (Sinan Mansions)</a>
+                        </div>
+                        <div class="title-tags">
+                            <section class="tags">
+                                <ul class="tag-list">
+                                    <li class="tag">
+                                        <span class="tag-format">Bar/Pub</span>
+                                    </li>
+                                    <li class="tag">
+                                        <span class="tag-format">$$-$$$</span>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="summary-container">
+                            <p>Not the original location of serial restaurateur Kelley Lee's popular American-style pub, but probably the most upscale one, seeing as its located in Sinan Mansions. It's three floors tall and has nice outdoor seating on Fuxing Lu. On tap is a selection of Pilsners, lagers, stouts, and a rotating cast of others. The menu features Southern American comfort food with Southwest accents.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food1">
+                    <div class="foodimg1">
+                        <img src="images/restaurant3.png">
+                    </div>
+                    <div class="article-content">
+                        <div class="food-title">
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g308272-d4804861-Reviews-Jing_Pu_Hui_SiNan_GongGuan-Shanghai.html">3. Jing Pu Hui (SiNan GongGuan)</a>
+                        </div>
+                        <div class="title-tags">
+                            <section class="tags">
+                                <ul class="tag-list">
+                                    <li class="tag">
+                                        <span class="tag-format">Chinese</span>
+                                    </li>
+                                    <li class="tag">
+                                        <span class="tag-format">$$$</span>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="summary-container">
+                            <p>The surrounding is very quiet with a booming environment. The service is very attentive and the details are refreshing for anone to enjoy. With exquisite dishes, even ordering a few light dishes will surprise you. The taste is unique, the color and fragrance are delicious. The dim sum is especially artistic, and the dessert is delicious.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food1">
+                    <div class="foodimg1">
+                        <img src="images/restaurant4.png">
+                    </div>
+                    <div class="article-content">
+                        <div class="food-title">
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g308272-d3604440-Reviews-Aux_Jardins_Massenet_at_Sinan_Mansions-Shanghai.html">4. Aux Jardins Massenet at Sinan Mansions</a>
+                        </div>
+                        <div class="title-tags">
+                            <section class="tags">
+                                <ul class="tag-list">
+                                    <li class="tag">
+                                        <span class="tag-format">French</span>
+                                    </li>
+                                    <li class="tag">
+                                        <span class="tag-format">$$$</span>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="summary-container">
+                            <p>The Aux Jardins is part of the Hotel Massenet , Sinan Mansions, the restaurant is therefore within a hotel - and it is a fabulous place to visit in this part of Shanghai. Garden-view fine-dining restaurant and bar specializing in French cuisine. Open daily for lunch and dinner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food1">
+                    <div class="foodimg1">
+                        <img src="images/restaurant5.png">
+                    </div>
+                    <div class="article-content">
+                        <div class="food-title">
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g308272-d2428740-Reviews-Pasha_Turkish_Restaurant-Shanghai.html">5. Pasha Turkish Restaurant</a>
+                        </div>
+                        <div class="title-tags">
+                            <section class="tags">
+                                <ul class="tag-list">
+                                    <li class="tag">
+                                        <span class="tag-format">Turkish</span>
+                                    </li>
+                                    <li class="tag">
+                                        <span class="tag-format">$$$</span>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="summary-container">
+                            <p>With an excellent Turkish chef, Pasha offers authentic fare in an intimate setting. Their grilled meat is top notch, offering European flavors in the heart of Shanghai for any day or special occassion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </body>
+</html>

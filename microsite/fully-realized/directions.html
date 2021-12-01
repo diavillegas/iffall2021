@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sinan Road</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <style>
+            html{
+                background-color: #FDFDFB;
+            }
+            body{
+                color: #002204;
+                font-family: 'Libre Baskerville', serif;
+            }
+            h1{
+                font-size: 50pt;
+                max-width: 100%;
+                text-align: left;
+                margin-left: 10%;
+            }
+
+            a:visited {
+                color: #002204;
+                text-decoration: none;
+            }
+
+            a:link{
+                text-decoration: none;
+            }
+
+            a:active{
+                color: #3BA248;
+                text-decoration: underline;
+            }
+
+            .directions-img{
+                width: 90%;
+                height:90%;
+                object-fit: cover;
+                margin:10%;
+            }
+
+            @media (min-width:1700px){
+            .directions-img{
+                float:right;
+                width: 45%;
+                height: 45%; 
+                object-fit: cover;
+                margin: 0 10% 0 0;
+        }
+    }
+            @media (min-width:1700px){
+            div.directions-text{
+                width:30%;
+                border: 1px solid #002204;
+                padding-left: 1%;
+                padding-right: 1%;
+                line-height: 2rem;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                margin-left: 10%;
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width:1700px){
+            .directions-img{
+                width:80%;
+                margin-right:20%;
+                display: flex;
+                flex: wrap;
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+        }
+        @media (max-width:1700px){
+        div.directions-text{
+                width:45%;
+                border: 1px solid #002204;
+                padding-left: 1%;
+                line-height: 2rem;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                margin-left: 27%;
+                margin-right: 0;
+            }}
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">Historical Facts</a></li>
+                    <li><a href="mansions.html">Sinan Mansions</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="directions.html">Directions</a></li>
+                </ul>
+            </nav>
+        </header>
+            <h1 class="directionstitle">Directions</h1>
+            <img class="directions-img" src="images/sinanroadbw.png">
+            <div class="directions-text">
+                    <ol>
+                        <li>
+                            Take metro line 9 and get off at Dapuqiao Station, leave<br> from exit 1 and walk about 200 meters (220 yards) to the east.
+                        </li>
+                        <li>
+                            Take metro line 13 and get off at Huaihai Middle Road<br> Station, leave from exit 1 and walk about 100 meters ( 110 yards) to the east.
+                        </li>
+                        <li>
+                            Take metro line 10 and get off at Xintiandi Station,<br> leave from exit 5 and walk almost 700 meters (770 yards) to the west.
+                        </li>
+                        <li>
+                            Take metro line 1 and get off at South Shaanxi Road<br> Station, leave from exit 4 and walk about 500 meters (550 yards) to the east.
+                        </li>
+                        <li>
+                            Take metro line 12 and get off at South Shaanxi Road<br> Station, leave from exit 8 and walk about 900 meters (1000 yards) to the east.
+                        </li>
+                        <li>
+                            Take bus line 26, 42, 167, 198, 320, 911, 920 and 926<br> and get off at Huaihai Middle Road Station.
+                        </li>
+                    </ol>
+            </div>
+    </body>
+</html>
