@@ -1,0 +1,25 @@
+ul.nav>li{
+    float:left;
+    list-style-type: none;
+    font-family: 'Libre Baskerville', serif;
+    font-size:12pt;
+    z-index: 2;
+}
+
+ul.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+
+ul.nav>li>a{
+    display: block;
+    padding: 70px;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
